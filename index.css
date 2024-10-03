@@ -394,7 +394,7 @@
 }
 
 @media (max-width: 600px) {
-  body {
+  .base-apparel-coming-soon {
     width: 100%;
     min-height: 100vh;
     position: relative;
@@ -454,7 +454,7 @@
 }
 
 @media (max-width: 400px) {
-  body {
+  .base-apparel-coming-soon {
     width: 100%;
     min-height: 100vh;
     position: relative;
@@ -462,9 +462,7 @@
   }
 
   .base-apparel-coming-soon-master {
-    min-height: 100vh;
     text-align: center;
-    height: fit-content;
     width: 100%;
     padding: 1.5rem 2rem 1.5rem;
     position: relative;
@@ -494,7 +492,7 @@
   }
 
   .base-apparel-paragraph {
-    font-size: .9rem;
+    font-size: 0.9rem;
     text-align: center;
     padding: 0;
     line-height: 1.5rem;
