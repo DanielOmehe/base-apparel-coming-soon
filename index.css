@@ -463,8 +463,9 @@ body {
 
   .base-apparel-coming-soon-master {
     text-align: center;
+    height: fit-content;
     width: 100%;
-    padding: 1.5rem 2rem 5rem;
+    padding: 1.5rem 2rem 1.5rem;
     position: relative;
   }
 
