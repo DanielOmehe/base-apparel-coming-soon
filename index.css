@@ -456,7 +456,7 @@
 @media (max-width: 400px) {
   .base-apparel-coming-soon {
     width: 100%;
-    min-height: 100vh;
+    min-height: fit-content;
     position: relative;
     flex-direction: column-reverse;
   }
@@ -464,7 +464,7 @@
   .base-apparel-coming-soon-master {
     text-align: center;
     width: 100%;
-    min-height: 100%;
+    min-height: fit-content;
     padding: 1.5rem 2rem 1.5rem;
     position: relative;
   }
