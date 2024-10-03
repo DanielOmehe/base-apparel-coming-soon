@@ -234,6 +234,16 @@ body {
     height: 100%;
   }
 
+  .base-apparel-heading {
+    font-size: 4.5rem;
+    padding-right: 10rem;
+    font-weight: 500;
+    line-height: 4.5rem;
+    letter-spacing: 0.5rem;
+    margin-bottom: 2rem;
+  }
+
+
   .icon-error.error {
     display: block;
     position: absolute;
@@ -254,7 +264,7 @@ body {
   }
 
   .base-apparel-heading {
-    font-size: 4.5rem;
+    font-size: 4rem;
     padding-right: 10rem;
     font-weight: 500;
     line-height: 4.5rem;
