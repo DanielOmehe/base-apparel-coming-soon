@@ -23,39 +23,41 @@
     <link rel="stylesheet" href="index.css" />
   </head>
   <body>
-    <div class="base-apparel-coming-soon-master">
-      <div class="base-apparel-logo">
-        <img src="images/logo.svg" alt="logo" />
+    <section class="base-apparel-coming-soon">
+      <div class="base-apparel-coming-soon-master">
+        <div class="base-apparel-logo">
+          <img src="images/logo.svg" alt="logo" />
+        </div>
+        <div class="base-apparel-content">
+          <h1 class="base-apparel-heading"><span>We're</span> coming soon</h1>
+          <p class="base-apparel-paragraph">
+            Hello fellow shoppers! We're currently building our new fashion
+            store. Add your email below to stay up-to-date with announcements
+            and our launch deals.
+          </p>
+          <form action="#" class="base-apparel-form">
+            <div class="base-form-group">
+              <input
+                type="email"
+                name="email"
+                id="base-email"
+                placeholder="Email Address"
+              />
+              <img
+                src="images/icon-error.svg"
+                alt="icon-error"
+                class="icon-error"
+              />
+              <p class="base-message"></p>
+            </div>
+            <button class="base-submit-btn">
+              <img src="images/icon-arrow.svg" alt="icon-arrow" />
+            </button>
+          </form>
+        </div>
       </div>
-      <div class="base-apparel-content">
-        <h1 class="base-apparel-heading"><span>We're</span> coming soon</h1>
-        <p class="base-apparel-paragraph">
-          Hello fellow shoppers! We're currently building our new fashion store.
-          Add your email below to stay up-to-date with announcements and our
-          launch deals.
-        </p>
-        <form action="#" class="base-apparel-form">
-          <div class="base-form-group">
-            <input
-              type="email"
-              name="email"
-              id="base-email"
-              placeholder="Email Address"
-            />
-            <img
-              src="images/icon-error.svg"
-              alt="icon-error"
-              class="icon-error"
-            />
-            <p class="base-message"></p>
-          </div>
-          <button class="base-submit-btn">
-            <img src="images/icon-arrow.svg" alt="icon-arrow" />
-          </button>
-        </form>
-      </div>
-    </div>
-    <div class="base-apparel-image"></div>
+      <div class="base-apparel-image"></div>
+    </section>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="index.js"></script>
   </body>

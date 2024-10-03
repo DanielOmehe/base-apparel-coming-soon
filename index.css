@@ -462,9 +462,10 @@ body {
   }
 
   .base-apparel-coming-soon-master {
+    min-height: 100vh;
     text-align: center;
     width: 100%;
-    padding: 1.5rem 2rem 5rem;
+    padding: 1.5rem 2rem 1.5rem;
     position: relative;
   }
 
@@ -501,6 +502,7 @@ body {
   .base-apparel-form {
     width: 100%;
     position: relative;
+    margin-bottom: 4rem;
   }
 
   .base-form-group {
@@ -518,6 +520,6 @@ body {
     display: block;
     position: absolute;
     top: 30%;
-    left: 70%;
+    left: 68%;
   }
 }
