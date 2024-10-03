@@ -501,6 +501,7 @@ body {
   .base-apparel-form {
     width: 100%;
     position: relative;
+    margin-bottom: 2rem;
   }
 
   .base-form-group {
